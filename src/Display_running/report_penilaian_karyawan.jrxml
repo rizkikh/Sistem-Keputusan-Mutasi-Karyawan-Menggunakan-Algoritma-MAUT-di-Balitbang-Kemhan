@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9f79c740-8361-4480-99f5-419b6e277f46">
+	<property name="ireport.zoom" value="1.771561000000001"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="realPath" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT * from db_penilaian order by nama asc]]>
+	</queryString>
+	<field name="nip" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="usia" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="pangkat" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kinerja" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="disiplin" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="pengalaman" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="109" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="2056a7a9-e981-45f0-b13c-0332ad294665" x="119" y="28" width="436" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KEMENTERIAN PERTAHANAN REPUBLIK INDONESIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2056a7a9-e981-45f0-b13c-0332ad294665" x="119" y="48" width="436" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="16" isBold="false"/>
+				</textElement>
+				<text><![CDATA[BADAN PENELITIAN DAN PENGEMBANGAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2056a7a9-e981-45f0-b13c-0332ad294665" x="119" y="68" width="436" height="21"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Jl. R.S Fatmawati, No.1, Pondok Labu, Cilandak, Jakarta Selatan, 12450]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement uuid="637259bc-8497-4a00-a8b4-3be7c7f147f2" x="19" y="100" width="536" height="1" backcolor="#000000"/>
+			</rectangle>
+			<image>
+				<reportElement uuid="7a370eca-51fe-48cb-ae29-5770968dbd83" x="19" y="0" width="100" height="100"/>
+				<imageExpression><![CDATA[$P{realPath}+"logo_kemhan_ori.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="51" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="2056a7a9-e981-45f0-b13c-0332ad294665" x="0" y="0" width="555" height="28"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN PENILAIAN KARYAWAN]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="48" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="125acfdc-71b9-4ced-bb23-96faae6ef4bd" x="12" y="0" width="108" height="48" backcolor="#FFFF00"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="120" y="0" width="96" height="48" backcolor="#FFFF00"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="216" y="0" width="37" height="48" backcolor="#FFFF00"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="253" y="0" width="64" height="48" backcolor="#FFFF00"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="317" y="0" width="61" height="48" backcolor="#FFFF00"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="378" y="0" width="55" height="48" backcolor="#FFFF00"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="433" y="0" width="110" height="48" backcolor="#FFFF00"/>
+			</rectangle>
+			<staticText>
+				<reportElement uuid="767ae774-d0c0-4edc-b0e8-5d0cca6e3936" x="12" y="0" width="108" height="48"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NIP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="767ae774-d0c0-4edc-b0e8-5d0cca6e3936" x="120" y="0" width="96" height="48"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="767ae774-d0c0-4edc-b0e8-5d0cca6e3936" x="216" y="0" width="37" height="48"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Usia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="767ae774-d0c0-4edc-b0e8-5d0cca6e3936" x="253" y="0" width="64" height="48"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pangkat/
+Golongan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="767ae774-d0c0-4edc-b0e8-5d0cca6e3936" x="317" y="0" width="61" height="48"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Kinerja]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="767ae774-d0c0-4edc-b0e8-5d0cca6e3936" x="378" y="0" width="55" height="48"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Disiplin]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="767ae774-d0c0-4edc-b0e8-5d0cca6e3936" x="433" y="0" width="110" height="48"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pengalaman]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="37" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="12" y="0" width="108" height="37"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="120" y="0" width="96" height="37"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="216" y="0" width="37" height="37"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="253" y="0" width="64" height="37"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="317" y="0" width="61" height="37"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="378" y="0" width="55" height="37"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="ae2cd0c9-1ed5-4634-8942-1314e46aaa10" x="433" y="0" width="110" height="37"/>
+			</rectangle>
+			<textField>
+				<reportElement uuid="6eda1043-5539-4f3b-b99e-d0d2feacc2d5" x="12" y="4" width="107" height="30"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nip}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="20c2894d-c3da-4783-8049-f4e7f6f2218f" x="125" y="4" width="85" height="30"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="938602c6-24fe-4ba2-8bfc-157f4ee12205" x="219" y="4" width="30" height="30"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{usia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5244dcaf-c49e-41da-a97b-ef47c222e639" x="257" y="4" width="55" height="30"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pangkat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="2d33bb3c-241a-40f8-be22-b2e0263ea1f8" x="323" y="4" width="50" height="30"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kinerja}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="24c1fd75-45f4-4e0c-9feb-1d6c2b579f6d" x="379" y="4" width="50" height="30"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{disiplin}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="9b6864ea-e40c-40b1-a37c-81f6de769c85" x="443" y="4" width="90" height="30"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pengalaman}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="12" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="13" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="167" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="2056a7a9-e981-45f0-b13c-0332ad294665" x="321" y="38" width="193" height="21"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Mengetahui, KA Biro Kepegawaian]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2056a7a9-e981-45f0-b13c-0332ad294665" x="321" y="18" width="47" height="21"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Jakarta, ]]></text>
+			</staticText>
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement uuid="4f0a1762-876b-498c-b7ac-02699bafb9e4" x="371" y="18" width="132" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="2056a7a9-e981-45f0-b13c-0332ad294665" x="321" y="145" width="179" height="21"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[NIP : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2056a7a9-e981-45f0-b13c-0332ad294665" x="321" y="124" width="179" height="21"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[(...................................................)]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>
